@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I RELATE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: url('/mnt/data/befunky_2024-6-1_10-0-55.png') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 20px;
+        }
+        .video-section, .image-gallery {
+            margin: 20px 0;
+        }
+        .video-section video, .image-gallery img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>I RELATE</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="content" id="home">
+    <h2>Welcome to I RELATE</h2>
+    <p>Raw stories from real people.</p>
+</div>
+
+<div class="content video-section" id="videos">
+    <h2>Videos</h2>
+    <video controls>
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<div class="content image-gallery" id="images">
+    <h2>Image Gallery</h2>
+    <img src="your-image-file.jpg" alt="Gallery Image">
+</div>
+
+<div class="content" id="about">
+    <h2>About I RELATE</h2>
+    <p>Information about the mission and team behind I RELATE.</p>
+</div>
+
+<div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 I RELATE. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
